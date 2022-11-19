@@ -5,9 +5,9 @@ export const ListContacts = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background-color: #7ec5f8;
+  background-color: #000;
   border-radius: 5px;
-  border: 2px solid #e9bb03;
+  border: 2px solid red;
 `;
 
 export const ListContactsItem = styled.li`
@@ -16,6 +16,7 @@ export const ListContactsItem = styled.li`
   align-items: baseline;
   font-size: 20px;
   font-style: italic;
+  color: #fff;
 `;
 
 export const ButtonDelete = styled.button`

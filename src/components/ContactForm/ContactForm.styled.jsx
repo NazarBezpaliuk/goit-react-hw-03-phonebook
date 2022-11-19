@@ -5,9 +5,9 @@ export const FormStyles = styled.form`
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background-color: #7ec5f8;
+  background-color: #000;
   border-radius: 5px;
-  border: 2px solid #e9bb03;
+  border: 2px solid red;
 `;
 
 export const LabelStyles = styled.label`
@@ -20,8 +20,8 @@ export const InputStyles = styled.input`
   margin-top: 5px;
   font-size: 16px;
   height: 20px;
-  background-color: #eef389;
-  border: 2px solid #e9bb03;
+  background-color: #fff;
+  border: 2px solid red;
   border-radius: 5px;
   outline: none;
   transition: all 250ms linear;
@@ -36,13 +36,12 @@ export const ButtonAdd = styled.button`
   width: auto;
   height: 30px;
   transition: all 250ms linear;
-  background-color: #eef389;
+  background-color: #fff;
   border-radius: 5px;
-  border: 2px solid #e9bb03;
+  border: 2px solid red;
   &:hover {
     background-color: red;
     transform: scale(1.025);
     box-shadow: 0 0 10px 0 red inset, 0 0 10px 4px grey;
-    border: 2px solid black;
   }
 `;
